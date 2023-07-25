@@ -1,0 +1,30 @@
+body{
+    /* background-color: rgb(255, 0, 0);     Test */
+    height: 5000px;
+}
+
+
+.navbar{
+    /* background-color: rgba(0, 255, 242,.2); */
+
+    transition: all 1s, transform 2s .5s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    /* transform: translate(0); */
+}
+
+.navbar.animate {
+    top: -60px;
+
+}
+
+.navbar.sticky {
+    top: 0;
+    /* transform: translate(0); */
+
+    /* z-index: 5444545454545454545; */
+    /* padding: 0 50px; */
+}
